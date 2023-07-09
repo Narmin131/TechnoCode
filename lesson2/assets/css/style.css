@@ -1,0 +1,23 @@
+h3{
+    color: green;
+    font-size: 90px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    border: 12px dotted rgb(3, 4, 46);
+}
+
+th, td, table{
+     border: 2px solid black;
+     /* border-collapse: collapse; */
+}
+
+
+th{
+    color:red;
+}
+
+i{
+    color:blue;
+    font-size:120px;
+}
