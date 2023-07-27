@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #181d24;
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h1 {
+  color: white;
+}
+
+.box1 {
+  width: 23%;
+  height: 100%;
+  background-color: brown;
+}
+
+ul li {
+  font-size: 17px;
+  list-style-type: none;
+  color: white;
+  line-height: 2;
+}
+
+.box2 {
+  width: 23%;
+  height: 100%;
+  background-color: blue;
+}
+
+.box3 {
+  width: 23%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.box3 h1 {
+  margin-bottom: 40px !important;
+}
+
+.box4 {
+  width: 23%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 12vh;
+  background-color: #111315;
+  display: flex;
+}
+
+.left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.right i{
+    color: white;
+}
+
+.myIcon{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 2px rgb(126, 15, 15) ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.myIcon:hover{
+    color: #111315;
+    background-color: wheat;
+    border: 2px rgb(0, 0, 0) ease;
+    transform: rotate(180deg);
+}
+
+
+.testimional{
+    width: 100%;
+    height: 60vh;
+    background-color: #111315;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.testimional-box{
+    width: 32%;
+    height: 85%;
+    background-color: blue;
+    padding: 30px;
+}
+.testimional-box i{
+    color: yellow;
+}
+
+.testimional-box .profile{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myBox{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+}
+
+.mudur{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+    background-image: url('../img/Testimonials-img-2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.isci{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    line-height: 2;
+}
+
